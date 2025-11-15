@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Bouton de filtrage -->
+        <Button
+            android:id="@+id/buttonFiltrerDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🔍 Filtrer par date"
+            android:background="@drawable/button_background"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp"
+            android:padding="12dp" />
+
+        <!-- Affichage des séances -->
+        <TextView
+            android:id="@+id/rattrapageTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Chargement des séances..."
+            android:textSize="16sp"
+            android:padding="12dp"
+            android:background="@drawable/edittext_background"
+            android:textColor="#333333"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Ajout d'une séance -->
+        <EditText
+            android:id="@+id/editTextDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="📅 Date de la séance"
+            android:padding="12dp"
+            android:focusable="false"
+            android:clickable="true"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:background="@drawable/edittext_background"
+            android:layout_marginBottom="12dp" />
+
+        <EditText
+            android:id="@+id/editTextSujet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="📝 Sujet"
+            android:padding="12dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:background="@drawable/edittext_background"
+            android:layout_marginBottom="24dp" />
+
+        <Button
+            android:id="@+id/buttonAjouter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="➕ Ajouter le rattrapage"
+            android:background="@drawable/button_background"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:padding="12dp" />
+
+    </LinearLayout>
+</ScrollView>

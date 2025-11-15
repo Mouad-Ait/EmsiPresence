@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "371430267549",
+    "project_id": "emsipresence-30b96",
+    "storage_bucket": "emsipresence-30b96.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:371430267549:android:d2879b4f472ec8c4169274",
+        "android_client_info": {
+          "package_name": "com.emsi.emsipresence"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAU6j5xMDquIJ3D08Shbs2L-KbMLo7u6Ww"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

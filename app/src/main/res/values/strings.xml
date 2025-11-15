@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">EmsiSmartPresence</string>
+    <string name="Email">Email</string>
+    <string name="Motdepasse">Mot de passe</string>
+    <string name="title_activity_maps">MapsActivity</string>
+
+
+    <string-array name="etablissements">
+        <item>EMSI Casablanca</item>
+        <item>EMSI Rabat</item>
+        <item>EMSI Marrakech</item>
+
+    </string-array>
+
+
+    <string-array name="filiere">
+        <item>Informatique</item>
+        <item>Réseaux et Télécoms</item>
+        <item>Génie Civil</item>
+
+    </string-array>
+
+    <!-- Liste des années -->
+    <string-array name="annee">
+        <item>1ère année</item>
+        <item>2ème année</item>
+        <item>3ème année</item>
+
+    </string-array>
+
+    <!-- Liste des groupes -->
+    <string-array name="groupe">
+        <item>Groupe 1</item>
+        <item>Groupe 2</item>
+        <item>Groupe 3</item>
+
+    </string-array>
+
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyAuDgJnLYgZ8033CwByBXltnwK3XHuR8KE</string>
+    <string name="gemini_api_key" templateMergeStrategy="preserve" translatable="false">AIzaSyCzEFVDWIhK8oVwbbsC8B1ljajJtbR5UUs</string>
+
+
+</resources>
